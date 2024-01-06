@@ -1,0 +1,121 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url(/image/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.Fonts{
+    color: rgba(253, 110, 10, 1);
+}
+.button{
+    background-color: rgba(253, 110, 10, 1) ;
+    color: aliceblue;
+    border: 0px solid  rgba(253, 110, 10, 1);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 20px; 
+    border-radius: 5px;
+}
+.navtitle{
+    color: #181818;
+    font-size: 40px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: #3a3939;
+    font-size: 18px;
+}
+.banner{
+    padding: 30px 30px 0px 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.one{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.two{
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+.banner2{
+max-width: 500px;
+
+}
+.section-about{
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.myself{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.about{
+ background-color: #fdf0e7;
+ padding: 130px;
+ border-radius: 10px;
+ margin: 130px  0px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.info-title{
+    text-align: center;
+}
+.config{
+    text-align: center;
+    color: #4e4a4a;
+}
+#me{
+    padding: 30px 150px;
+}
+.skill{
+    display: flex;
+    gap: 24px;
+}
+.skill-css{
+    padding: 30px;
+    border: 5px;
+    background: aliceblue;
+    box-shadow: 0px 2px 16px 0px rgb(43, 42, 42);
+}
+/* resume section */
+.resume-colum{
+font-size: 25px;
+font-weight: 700;
+color: #474747;
+}
