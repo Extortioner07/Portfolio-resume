@@ -164,5 +164,13 @@ color: #474747;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/* footer style */
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+   padding: 130px 200px;
+    justify-content: space-between;
+    margin: 30px;
+}
 
 
