@@ -119,3 +119,50 @@ font-size: 25px;
 font-weight: 700;
 color: #474747;
 }
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item1{
+    font-size: 25px;
+    color: #3a3939;
+}
+.resume-item2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+.item-p{
+    font-size: 16px;
+    color: #4e4a4a;
+    text-align: justify;
+    
+}
+/* hover */
+#hover:hover{
+    background-color: rgb(200, 233, 14);
+}
+.resume-item1:hover{
+    background-color:  rgb(200, 233, 14);
+}
+.resume-item2:hover{
+    background-color: rgb(212, 238, 66);
+}
+.item-p:hover{
+    background-color:  rgb(220, 236, 126);
+}
+/* hover */
+/* hr size */
+.resume-container hr{
+    margin: 15px;
+}
+#cv{
+    background-color:  rgba(253, 110, 10, 1);
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
