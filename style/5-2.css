@@ -163,6 +163,7 @@ color: #474747;
     padding: 15px 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #FFF8F3;
 }
 /* footer style */
 footer{
@@ -170,7 +171,29 @@ footer{
     background-color: #FFF8F3;
    padding: 130px 200px;
     justify-content: space-between;
-    margin: 30px;
+    gap: 130px;
 }
-
-
+.footer-colum{
+    width: 50%;
+}
+.details input[type="text"], .details input[type="email"],
+textarea{
+display: block;
+margin-bottom: 25px;
+padding: 18px 35px;
+color: #757575;
+background: #ffffff;
+border: 0;
+border-radius: 5px;
+width: 60%;
+}
+.social-link a{
+    margin-right: 25px;
+}
+#value{
+    border-radius: 3px;
+    padding: 8px 15px;
+    border: 0;
+    background:  rgba(253, 110, 10, 1);
+    color:#ffffff;
+}
